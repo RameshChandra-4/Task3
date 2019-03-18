@@ -2,7 +2,7 @@
  * The program estimates cost of the house
  * depending on the material used and 
  * area of the house and other features like automation
- * @author sudhamsh
+ * @author Ramesh Chandra
  *
  */
 public class CostEstimator {

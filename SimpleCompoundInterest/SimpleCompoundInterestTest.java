@@ -1,14 +1,14 @@
 /**
  * 
- * @author sudhamsh
+ * @author Ramesh Chandra
  *
  */
  
- public class SimpleCompoundInterestTest
+ public class SimpleCompoundInterestUnitTestCase
  {
 	 
 	@Test
-	public void TestSimpleInterest() {
+	public void UnitTestCaseSimpleInterest() {
 		SimpleCompoundInterest simplecompoundinterest;
 		 simpleInterest = new SimpleCompoundInterest(20202, 2.5f, 3);
 		assertEquals(1515.1500244140625, simpleInterest.SimpleInterest());
@@ -16,7 +16,7 @@
 		assertEquals(2525.25, simpleInterest.SimpleInterest());
 	}
 	@Test
-	void TestCompoundIntrest() {
+	void UnitTestCaseCompoundIntrest() {
 		SimpleCompoundInterest compoundInterest;
 		compoundInterest = new SimpleCompoundInterest(20202, 2.5f, 3);
 		assertEquals(21755.342888139312, compoundInterest.CompoundInterest());
