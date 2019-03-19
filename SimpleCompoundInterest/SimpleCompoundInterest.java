@@ -11,7 +11,7 @@ public class SimpleCompoundInterest
         this.interestRate=interestRate;
         this.time = time;
   }
-    public int SimpleInterest()
+    public double SimpleInterest()
     { 
 	   return principle*interestRate*time/100;
     }
